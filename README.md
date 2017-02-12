@@ -16,7 +16,7 @@ Projekt Manhattan jest to projekt w którym bardziej doświadczeni programiści 
 ## Jak się uczyć?
 Nauka programowania to skomplikowany proces. W tym projekcie (jakkolwiek banalnie by to nie brzmiało) skupimy się na praktycznym aspekcie pracy programisty. Nie oczekuj jednak że wszystko zrozumiesz od samego początku - jest wiele rzeczy których będziemy się uczyć, nad wieloma tematami będziemy pracować równolegle, co (przynajmniej na początku) może nastręczać trudności. Dlatego ważne jest aby poruszać problemy w grupie i razem starać się rozwiązywać problemy które napotkamy na swojej drodze.
 
-Również nazewnictwo może być trudne do ogranięcia jeżeli jakaś nazwa sprawia ci problem pytaj w grupe lub sprawdź w google.
+Również nazewnictwo może być trudne do ogarnięcia jeżeli jakaś nazwa sprawia ci problem pytaj w grupe lub sprawdź w google.
 
 # Narzędzia komunikacyjne z których korzystamy w projekcie
 Poniższa lista nie wyczerpuje tematu są to narzędzia z których niektóre firmy obecnie korzystają do pracy na projektami programistycznymi (sam korzystam z nich w codziennej pracy)
@@ -27,7 +27,7 @@ Poniższa lista nie wyczerpuje tematu są to narzędzia z których niektóre fir
 ## Narzędzie zarządzania projektem
 Zarządzanie projektami nad którymi będziemy pracować powierzymy [Trello](https://zoom.us/). Obsługuje się go z poziomu przeglądarki internetowej. Trzeba wejść na tę stronę i się zalogować.
 
-Pisząc projekt mam na myśli bardzo szerokie pojęcie projektu. Projektem może być równie dobrze nauka jakiegoś języka programowania jak i projekt stworzenia bloga
+Pisząc projekt mam na myśli bardzo szerokie pojęcie projektu. Projektem może być równie dobrze nauka jakiegoś języka programowania jak i projekt stworzenia bloga.
 
 # Narzędzia pracy programisty
 Nie jest to lista całkowita - od tego zaczniemy.
@@ -42,7 +42,7 @@ Praca programisty to głównie praca z plikami tekstowymi. W tychże plikach tek
 
 Dobry edytor tekstu to podstawa. Dobry to przede wszystkim taki który oferuje kolorowanie składni oraz znacząco ułatwia wyszukiwanie i zamianę tekstu. Polecam jeden z czterech edytorów (nie jest to pełna lista, a raczej lista bardzo krótka, jeżeli znacie inny w którym będziecie czuć się dobrze, to proszę śmiało z niego korzystać):
 
-* **[VIM](https://vim.sourceforge.io/download.php)** - świetny edytor tekstu, pierwsze kroki z tym edytorem są wyjątkowo trudne i całkowicie nieprzyjemne. Ogromną zaletą tego edytora jest to, że jest dostępny na każdą platformę oraz możliwości jego konfiguracji są praktycznie nieograniczone. Czas poświęcony na naukę tego edytora tekstu na pewno nie pójdą w las.
+* **[VIM](https://vim.sourceforge.io/download.php)** - świetny edytor tekstu, pierwsze kroki z tym edytorem są wyjątkowo trudne i całkowicie nieprzyjemne. Ogromną zaletą tego edytora jest to, że jest dostępny na każdą platformę oraz możliwości jego konfiguracji są praktycznie nieograniczone. Czas poświęcony na naukę tego edytora tekstu na pewno nie pójdzie w las.
 * **[EMACS](https://www.gnu.org/software/emacs/)** - świetny edytor tekstu, pierwsze kroki z tym edytorem są wyjątkowo trudne i całkowicie nieprzyjemne. Ogromną zaletą tego edytora jest to, że jest dostępny na każdą platformę oraz możliwości jego konfiguracji są praktycznie nieograniczone. To jest edytor którego sam obecnie używam
 * **[Sublimetext](https://www.sublimetext.com/)** - początki pracy z tym edytorem są znacznie łatwiejsze w porównaniu do dwóch pierwszych. Sam znam dwóch świetnych programistów którzy z powodzeniem korzystają z tego narzędzia
 * **[ATOM](https://atom.io/)** - z tym edytorem również łatwiej zacząć. Znam przynajmniej kilku dobrych programistów którzy z niego korzystają
@@ -63,7 +63,7 @@ Nie od razu będziemy korzystać ze wszystkich wymienionych poniżej, w przypadk
 * **[Bash](https://pl.wikipedia.org/wiki/Bash)** - język skryptowy niezwykle pomocny przy manipulacji plików oraz wielu innych czynności związanych z wyszukiwaniem tekstu oraz ogólnie pracy z komputerem.
 * **[Postgres](https://www.postgresql.org/)** - rozwiązanie bazodnowe pierwszego wyboru.
 
-# Nie jest to lista kompletna jest to coś co pozwoli nam zacząć Projekt Manhattan.
+# Nie jest to lista kompletna lecz jest to coś co pozwoli nam zacząć Projekt Manhattan.
 
 Powodzenia
 Radek Molenda
