@@ -23,6 +23,7 @@ Kontynuacja a raczej troszeczkę porządniejszy wstęp do tego jakże cudownego 
 * [ ] Instrukcje
 * [ ] Wyrażenia
 * [ ] Literały
+* [ ] Lista słów zarezerwowanych
 * [ ] Funkcje
 
 ## Blok trzeci - Style
