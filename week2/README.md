@@ -43,7 +43,7 @@ W tym bloku skupimy się na upiększeniu naszego kalkulatora oraz postaramy się
 * Zmienić branch na `css` i otworzyć index.html (otworzyć w przeglądarce za pomocą serwera)
 * Przejrzeć nagłówek pod kątem tego w jaki sposób dołącza się style do plików CSS
 * Zwróć uwagę, że korzystam z tzw frameworka CSS [foundation](http://foundation.zurb.com/) - przejrzyj dokumentację. Wiele nazw klas z których korzystam w dokumencie HTML zostało zdefiniowanych w tymże frameworku.
-* Zwróć uwagę na to, że skrypt javascript jest ładowany z pliku [/js/app.js](https://github.com/RadekMolenda/manhattan/blob/css/week2/js/app.js) a nie osadzony w bezpośrednio w dokumencie html. Ten plik będziecie musieli decydować później.
+* Zwróć uwagę na to, że skrypt javascript jest ładowany z pliku [/js/app.js](https://github.com/RadekMolenda/manhattan/blob/css/week2/js/app.js) a nie osadzony w bezpośrednio w dokumencie html. Ten plik będziecie musieli edytować za chwilę.
 * Zwróć uwagę na to, że style zdefiniowane przeze mnie zostały dołączone do dokumentu w postaci pliku [/css/app.css](https://github.com/RadekMolenda/manhattan/blob/css/week2/css/app.css). Jak myślisz za co odpowiadają tamte zdefiniowane style?
 
 ## Kalkulator
