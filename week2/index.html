@@ -27,15 +27,21 @@
 
     <script>
       $(document).foundation();
+   	
+
     </script>
+
   </head>
 
   <body>
+
+
+
     <div class="row medium-uncollapse large-collapse">
       <div class="small-12 medium-centered large-centered medium-6 large-6 columns">
         <h1>Projekt Manhattan - kalkulator</h1>
         <div class="callout">
-          <input type="text" id="input-text" disabled="disabled"/>
+          <input type="number" id="input-text" autofocus="" />
         </div>
         <div class="callout">
           <div class="row">
@@ -83,7 +89,7 @@
             <div class="operations medium-5 columns">
               <div class="secondary row medium-up-2">
                 <div class="column column-block">
-                  <button type="button" class="button expanded arithmetic">+</button>
+                  <button type="button" id="plus" class="button expanded arithmetic">+</button>
                 </div>
                 <div class="column column-block">
                   <button type="button" class="button expanded arithmetic">*</button>
@@ -104,7 +110,8 @@
                   <button type="button" class="button expanded success result">=</button>
                 </div>
                 <div class="column column-block">
-                  <button type="button" class="button expanded alert clear">CE</button>
+                  <button type="button" id="clear" class="button expanded alert clear">CE</button>
+
                 </div>
               </div>
             </div>
