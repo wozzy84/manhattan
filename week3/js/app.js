@@ -1,11 +1,31 @@
 $(function() {
-  $("#search").on("click", function(event) {
-    var inputValue = $("#input-text").val();
+  var $inputText = $("#input-text"),
+      endpoint = "https://restcountries.eu/rest/v2/name/",
+      template = $("#country-template").html(),
+      $results = $("#results");
+
+
+  $("#search").on("submit", function(event) {
+    var inputValue = $inputText.val(),
+        request;
+
     event.preventDefault();
 
-    $.get("https://restcountries.eu/rest/v2/name/" + inputValue)
+    request = $.get(endpoint + inputValue)
       .done(function(data) {
-        console.log(data)
+        var i;
+
+        $results.html("");
+        for(i = 0; i < data.length; i += 1) {
+          html = Mustache.to_html(template, data[i]);
+          if(i === 0) {
+            html = $(html).addClass("is-active");
+          }
+          $results.append(html);
+        }
+      })
+      .done(function() {
+        $results.foundation();
       });
   });
 })

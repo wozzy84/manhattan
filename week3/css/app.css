@@ -1,7 +1,6 @@
-h1 {
-    font-family: 'Nova Square', cursive;
-}
-
-#input-text {
+h1,
+input.button,
+input#input-text,
+h5 {
     font-family: 'Nova Square', cursive;
 }
