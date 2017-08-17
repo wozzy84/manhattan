@@ -1,7 +1,30 @@
-window.onload = function () {
+function wyswietlMiasto() {
+  const wyswietl = document.getElementById("wyswietl");
+  const wyswietlMiasto = document.getElementById("wyswietl-miasto");
+  const mainDiv = document.getElementById("main");
+
+  wyswietl.addEventListener("click", function(event) {
+    const canvas = document.createElement("canvas"); // 500 x 300
+    const id = "wykres" + wyswietlMiasto.value;
+    canvas.setAttribute("width", "300");
+    canvas.setAttribute("height", "200");
+    canvas.setAttribute("id", id);
+
+    const nextElement = document.createElement("div");
+
+    nextElement.innerHTML = "<h2>" + wyswietlMiasto.value + "</h2>" +
+      canvas.outerHTML;
+
+    mainDiv.appendChild(nextElement);
+
+    wyswietlWykres(wyswietlMiasto.value, id);
+  });
+}
+
+function wyswietlWykres(miasto, id) {
   "use strict";
 
-  const canvas = document.getElementById("drawCanvas"); // 500 x 300
+  const canvas = document.getElementById(id);
   const ctx = canvas.getContext("2d");
 
   ctx.fillStyle = "rgb(200, 200, 200)";
@@ -10,7 +33,7 @@ window.onload = function () {
   ctx.translate(0, -canvas.height);
 
   const req = new XMLHttpRequest();
-  const url = "http://api.openweathermap.org/data/2.5/forecast?q=Warsaw,pl&appid=823afac09c34370d779296d434aea0e9";
+  const url = "http://api.openweathermap.org/data/2.5/forecast?q=" + miasto + ",pl&appid=823afac09c34370d779296d434aea0e9";
 
   function max(numArray) {
     return Math.max.apply(null, numArray);
@@ -55,4 +78,10 @@ window.onload = function () {
   req.addEventListener("load", handleData);
   req.open("GET", url);
   req.send();
+
+  return canvas.outerHTML;
+}
+
+window.onload = function() {
+  wyswietlMiasto();
 }
