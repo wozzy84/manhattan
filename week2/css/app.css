@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Nova Square', cursive;
+}
+
+#input-text {
+    font-family: 'Nova Square', cursive;
+    text-align: right;
+    font-size: 2em;
+}
